@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
 /* Home Page Background Start */
 .home-page-bg{
     background-image: url('../images/home-page-bg.webp');
@@ -11,3 +19,62 @@
     background-repeat: no-repeat;
 }
 /* Home Page Background End */
+
+/* Navbar Start */
+.navbar {
+    background-color: #59138d;
+    padding: 0.6rem 7%;
+}
+.navbar .navbar-brand img {
+    width: 70px;
+}
+.navbar .nav-link {
+    color: #fff;
+    font-weight: 600;
+    font-size: calc(0.65rem + 0.5vw);
+    padding: 0.6rem 1.5rem !important;
+    border-radius: 30px;
+    margin-right: 1rem;
+}
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #59138d;
+    background-color: #fff;
+}
+.navbar .social-btns {
+    margin-left: 3rem;
+    display: flex;
+    gap: 1.3rem;
+    background-color: #8c5923;
+    padding: 0.55rem 1.5rem;
+    border-radius: 30px;
+}
+.navbar .social-btns a{
+    color: #fff;
+    font-size: calc(0.8rem + 0.5vw);
+    transition: all 0.2s ease;
+}
+.navbar .social-btns a:hover {
+    transform: translateY(-3px);
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+
+}
+/* Navbar End */
+
+/* Banner Start */
+.home-banner img{
+    width: 100%;
+}
+/* Banner End */
