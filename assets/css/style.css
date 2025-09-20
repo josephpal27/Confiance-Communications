@@ -22,7 +22,7 @@ body{
 
 /* Navbar Start */
 .navbar {
-    background-color: #59138d;
+    background: linear-gradient(to right, #59138d 10%, #220f3d 160%);
     padding: 0.6rem 7%;
 }
 .navbar .navbar-brand img {
@@ -45,7 +45,7 @@ body{
     margin-left: 3rem;
     display: flex;
     gap: 1.3rem;
-    background-color: #8c5923;
+    background: linear-gradient(to right, #bd7d3c 20%, #8c5923 100%);
     padding: 0.55rem 1.5rem;
     border-radius: 30px;
 }
