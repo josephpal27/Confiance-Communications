@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Home Page Background Start */
+.home-page-bg{
+    background-image: url('../images/home-page-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Home Page Background End */
