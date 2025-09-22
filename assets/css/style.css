@@ -197,3 +197,69 @@ body{
     width: 70%;
 }
 /* Certificates End */
+
+/* Our Clients Start */
+.our-clients{
+    padding: 4rem 7%;
+    overflow: hidden;
+}
+.our-clients h5{
+    color: #fff;
+    font-size: calc(4rem + 0.5vw);
+    font-weight: 300;
+    text-align: center;
+}
+.our-clients h5 span{
+    font-weight: 700;
+}
+.our-clients .our-clients-slider{
+    position: relative;
+}
+.our-clients .swiper{
+    width: 80%;
+    padding: 3.5rem 0 5rem 0;
+}
+.our-clients .swiper .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.3);
+    width: 260px;
+    height: 260px;
+    background: linear-gradient(180deg, #836c9ad3 -10%, #3a1160 95%);
+    backdrop-filter: blur(10px);
+}
+.our-clients .swiper .swiper-slide img{
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+}
+.our-clients .swiper-button-next,
+.our-clients .swiper-button-prev {
+  color: white;
+  top: 52%;
+  transform: translateY(-50%);
+  scale: 0.7;
+  position: absolute;
+  z-index: 10;
+}
+.our-clients .swiper-button-prev {
+  left: 2rem;
+}
+.our-clients .swiper-button-next {
+  right: 2rem;
+}
+.our-clients .swiper-pagination-bullet {
+    background: white;
+    opacity: 0.5;
+    width: 25px;
+    border-radius: 5px;
+    height: 5px;
+    transition: all 0.2s ease;
+}
+.our-clients .swiper-pagination-bullet-active {
+    opacity: 1;
+    width: 65px;
+}
+/* Our Clients End */
