@@ -78,3 +78,36 @@ body{
     width: 100%;
 }
 /* Banner End */
+
+/* About Start */
+.about{
+    padding: 6rem 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.about .about-image{
+    width: 45%;
+}
+.about .about-image img{
+    width: 100%;
+}
+.about .about-content{
+    width: 48%;
+}
+.about .about-content h1{
+    color: #fff;
+    font-size: calc(4rem + 0.5vw);
+    font-weight: 300;
+}
+.about .about-content h1 span{
+    font-weight: 700;
+}
+.about .about-content p{
+    color: #fff;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    margin-top: 2rem;
+}
+/* About End */
