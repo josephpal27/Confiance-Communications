@@ -150,3 +150,50 @@ body{
     width: 100%;
 }
 /* Impact Created End */
+
+/* Certificates Start */
+.certificates{
+    padding: 4rem 7%;
+    overflow: hidden;
+}
+.certificates h3{
+    color: #fff;
+    font-size: calc(4rem + 0.5vw);
+    font-weight: 700;
+    text-align: end;
+}
+.certificates-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.certificates-container .certificate-desc{
+    width: 51%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.certificates-container .certificate-desc h4{
+    color: #fff;
+    font-size: calc(3rem + 0.5vw);
+    font-weight: 300;
+}
+.certificates-container .certificate-desc h4 span{
+    font-weight: 700;
+}
+.certificates-container .certificate-desc p{
+    color: #fff;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.certificates-container .certificate-image{
+    width: 43%;
+    display: flex;
+    justify-content: end;
+}
+.certificates-container .certificate-image img{
+    width: 70%;
+}
+/* Certificates End */
