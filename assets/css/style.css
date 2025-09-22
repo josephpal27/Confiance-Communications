@@ -81,7 +81,7 @@ body{
 
 /* About Start */
 .about{
-    padding: 6rem 7%;
+    padding: 5rem 7%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -95,6 +95,9 @@ body{
 }
 .about .about-content{
     width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .about .about-content h1{
     color: #fff;
@@ -111,3 +114,39 @@ body{
     margin-top: 2rem;
 }
 /* About End */
+
+/* Impact Created Start */
+.impact{
+    padding: 4rem 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.impact .impact-content{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.impact .impact-content h2{
+    color: #fff;
+    font-size: calc(4rem + 0.5vw);
+    font-weight: 300;
+}
+.impact .impact-content h2 span{
+    font-weight: 700;
+}
+.impact .impact-content p{
+    color: #fff;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.impact .impact-image{
+    width: 45%;
+}
+.impact .impact-image img{
+    width: 100%;
+}
+/* Impact Created End */
