@@ -27,3 +27,28 @@ var swiper = new Swiper(".ourClientsSlider", {
 });
 
 // ----------------------------------------------------------------------------------------------------------------
+
+// Functionality For Client Reviews Slider
+var swiper = new Swiper(".clientReviewsSlider", {
+  slidesPerView: 1,
+  loop: true,
+  grabCursor: true,
+  spaceBetween: 0,
+  speed: 800,
+  autoplay: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+
+  pagination: {
+    el: ".client-reviews .swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".client-reviews .swiper-button-next",
+    prevEl: ".client-reviews .swiper-button-prev",
+  },
+});
+
+// ----------------------------------------------------------------------------------------------------------------

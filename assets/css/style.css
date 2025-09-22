@@ -265,7 +265,7 @@ body{
 
 /* Awards Start */
 .awards{
-    padding: 4rem 7%;
+    padding: 4rem 7% 3rem 7%;
 }
 .awards h6{
     color: #fff;
@@ -307,3 +307,70 @@ body{
     backdrop-filter: blur(10px);
 }
 /* Awards End */
+
+/* Client Reviews Start */
+.client-reviews{
+    padding: 0 7% 3rem 7%;
+}
+.client-reviews h6{
+    color: #fff;
+    font-size: calc(4rem + 0.5vw);
+    font-weight: 300;
+}
+.client-reviews h6 span{
+    font-weight: 700;
+}
+.client-reviews-slider{
+    margin-top: 3.5rem;
+    position: relative;
+}
+.client-reviews-slider .swiper-slide{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.client-reviews-slider .review-content{
+    width: 62%;
+    color: #fff;
+}
+.client-reviews-slider .review-content p{
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    margin: 0;
+}
+.client-reviews-slider .review-content .ratings{
+    margin-top: 0.8rem;
+}
+.client-reviews-slider .review-content .ratings i{
+    margin-right: 2px;
+    font-size: calc(0.7rem + 0.5vw);
+    color: #d89756;
+}
+.client-reviews-slider .review-content span{
+    display: block;
+    font-size: calc(1.2rem + 0.5vw);
+    font-weight: 800;
+    margin-top: 2rem;
+}
+.client-reviews-slider .review-image{
+    width: 28%;
+}
+.client-reviews-slider .review-image img{
+    width: 100%;
+}
+.client-reviews-slider .swiper-button-next,
+.client-reviews-slider .swiper-button-prev {
+  color: white;
+  top: 52%;
+  transform: translateY(-50%);
+  scale: 0.7;
+  position: absolute;
+  z-index: 10;
+}
+.client-reviews-slider .swiper-button-prev {
+  left: -3.5rem;
+}
+.client-reviews-slider .swiper-button-next {
+  right: -3.2rem;
+}
+/* Client Reviews End */
