@@ -160,19 +160,16 @@ body{
     color: #fff;
     font-size: calc(4rem + 0.5vw);
     font-weight: 700;
-    text-align: end;
+    text-align: center;
 }
 .certificates-container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
 }
 .certificates-container .certificate-desc{
     width: 51%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 .certificates-container .certificate-desc h4{
     color: #fff;
@@ -186,7 +183,7 @@ body{
     color: #fff;
     font-size: calc(0.7rem + 0.5vw);
     font-weight: 500;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .certificates-container .certificate-image{
     width: 43%;
@@ -194,7 +191,9 @@ body{
     justify-content: end;
 }
 .certificates-container .certificate-image img{
-    width: 70%;
+    width: 55%;
+    height: auto;
+    object-fit: contain;
 }
 /* Certificates End */
 
@@ -255,7 +254,7 @@ body{
     opacity: 0.5;
     width: 25px;
     border-radius: 5px;
-    height: 5px;
+    height: 4px;
     transition: all 0.2s ease;
 }
 .our-clients .swiper-pagination-bullet-active {
@@ -263,3 +262,48 @@ body{
     width: 65px;
 }
 /* Our Clients End */
+
+/* Awards Start */
+.awards{
+    padding: 4rem 7%;
+}
+.awards h6{
+    color: #fff;
+    font-size: calc(4rem + 0.5vw);
+    font-weight: 300;
+}
+.awards h6 span{
+    font-weight: 700;
+}
+.awards-tabbing-system{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+.awards-tabbing-system .tab-content{
+    width: 37%;
+}
+.awards-tabbing-system .tab-content img{
+    width: 100%;
+}
+.awards-tabbing-system .tab-buttons{
+    width: 55%;
+}
+.awards-tabbing-system .tab-buttons button{
+    width: 100%;
+    border-radius: 0;
+    padding: 1.4rem 2rem;
+    background: #4c0f7ad4;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    font-size: calc(0.7rem + 0.5vw);
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.awards-tabbing-system .tab-buttons button.active{
+    background: linear-gradient(180deg, #836c9ad3 0%, #3a1160 120%);
+    backdrop-filter: blur(10px);
+}
+/* Awards End */
