@@ -387,3 +387,76 @@ body{
   right: -3.2rem;
 }
 /* Client Reviews End */
+
+/* Get In Touch Start */
+.get-in-touch{
+    padding: 4rem 7%;
+    background-image: url('../images/get-in-touch-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.get-in-touch h6{
+    color: #fff;
+    font-size: calc(2.5rem + 0.5vw);
+    font-weight: 700;
+    text-align: center;
+    width: 60%;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 1rem;
+}
+.get-in-touch p{
+    color: #fff;
+    font-size: calc(1.2rem + 0.5vw);
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1rem;
+}
+.get-in-touch form{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 3rem;
+}
+.get-in-touch input,
+.get-in-touch textarea{
+    padding: 0.9rem 1.2rem;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #bd7d3c 0%, #8c5923 70%);
+    color: #fff;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.get-in-touch input::placeholder,
+.get-in-touch textarea::placeholder{
+    color: #fff;
+}
+.get-in-touch input:focus,
+.get-in-touch textarea:focus{
+    background: linear-gradient(to right, #7f501e 0%, #7f501e 0%);
+}
+.get-in-touch textarea{
+    height: 12rem;
+    resize: none;
+}
+.get-in-touch button{
+    padding: 0.9rem 1.2rem;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #bd7d3c 0%, #8c5923 70%);
+    color: #fff;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+.get-in-touch button:hover{
+    background: linear-gradient(to right, #8c5923 0%, #bd7d3c 90%);
+}
+.get-in-touch button:active{
+    background: linear-gradient(to right, #7f501e 0%, #7f501e 0%);
+}
+/* Get In Touch End */
