@@ -460,3 +460,78 @@ body{
     background: linear-gradient(to right, #7f501e 0%, #7f501e 0%);
 }
 /* Get In Touch End */
+
+/* Footer Start */
+footer{
+    padding: 6rem 7% 0 7%;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 1.5rem;
+}
+.footer-content .footer-desc{
+    width: 60%;
+}
+.footer-content .footer-desc img{
+    width: 80px;
+    margin-bottom: 2rem;
+}
+.footer-content .footer-desc p{
+    margin: 0;
+    font-size: calc(0.65rem + 0.5vw);
+    font-weight: 500;
+}
+.footer-content .footer-contact{
+    width: 35%;
+}
+.footer-content .footer-contact span{
+    display: block;
+    font-weight: 700;
+    font-size: calc(1.2rem + 0.5vw);
+    margin-bottom: 3rem;
+}
+.footer-content .footer-contact a{
+    display: flex;
+    gap: 12px;
+    font-weight: 500;
+    font-size: calc(0.65rem + 0.5vw);
+    margin-bottom: 0.8rem;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.footer-content .footer-contact a i{
+    padding-top: 6px;
+}
+.footer-content .footer-contact a:hover{
+    color: #d89756;
+}
+.footer-copyright{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-copyright p{
+    margin: 0;
+}
+.footer-copyright .social-btns {
+    display: flex;
+    gap: 1.2rem;
+    background: linear-gradient(to right, #bd7d3c 20%, #8c5923 100%);
+    padding: 0.3rem 1.5rem;
+    border-radius: 30px;
+}
+.footer-copyright .social-btns a{
+    color: #fff;
+    font-size: calc(0.6rem + 0.5vw);
+    transition: all 0.2s ease;
+}
+.footer-copyright .social-btns a:hover {
+    transform: translateY(-3px);
+}
+/* Footer End */
