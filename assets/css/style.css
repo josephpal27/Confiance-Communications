@@ -328,7 +328,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 8rem;
+    padding-bottom: 5rem;
 }
 .client-reviews-slider .review-content{
     width: 62%;
@@ -338,9 +338,7 @@ body{
     font-size: calc(0.7rem + 0.5vw);
     font-weight: 500;
     margin: 0;
-}
-.client-reviews-slider .review-content .ratings{
-    margin-top: 0.8rem;
+    margin-bottom: 1rem;
 }
 .client-reviews-slider .review-content .ratings i{
     margin-right: 2px;
@@ -352,6 +350,11 @@ body{
     font-size: calc(1.2rem + 0.5vw);
     font-weight: 800;
     margin-top: 2rem;
+}
+.client-reviews-slider .review-content span:last-child{
+    font-size: calc(0.8rem + 0.5vw);
+    font-weight: 700;
+    margin-top: 0.2rem;
 }
 .client-reviews-slider .review-image{
     width: 28%;
@@ -374,7 +377,7 @@ body{
 .client-reviews-slider .swiper-button-next,
 .client-reviews-slider .swiper-button-prev {
   color: white;
-  top: 40%;
+  top: 36%;
   transform: translateY(-50%);
   scale: 0.7;
   position: absolute;
