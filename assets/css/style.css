@@ -394,7 +394,7 @@ body{
 /* Get In Touch Start */
 .get-in-touch{
     padding: 4rem 7%;
-    background-image: url('../images/get-in-touch-bg.png');
+    background-image: url('../images/get-in-touch-bg.webp');
     background-size: cover;
     background-position: center;
     display: flex;
