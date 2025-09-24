@@ -216,7 +216,7 @@ body{
 }
 .our-clients .swiper{
     width: 80%;
-    padding: 3.5rem 0 5rem 0;
+    padding: 4rem 0 4rem 0;
 }
 .our-clients .swiper .swiper-slide{
     display: flex;
@@ -249,23 +249,11 @@ body{
 .our-clients .swiper-button-next {
   right: 2rem;
 }
-.our-clients .swiper-pagination-bullet {
-    background: white;
-    opacity: 0.5;
-    width: 25px;
-    border-radius: 5px;
-    height: 4px;
-    transition: all 0.2s ease;
-}
-.our-clients .swiper-pagination-bullet-active {
-    opacity: 1;
-    width: 65px;
-}
 /* Our Clients End */
 
 /* Awards Start */
 .awards{
-    padding: 4rem 7% 3rem 7%;
+    padding: 3rem 7% 3rem 7%;
 }
 .awards h6{
     color: #fff;
