@@ -234,6 +234,9 @@ body{
     object-fit: contain;
     filter: brightness(0) invert(1);
 }
+.our-clients .swiper .swiper-slide .black{
+    filter: grayscale(100%) !important;
+}
 .our-clients .swiper-button-next,
 .our-clients .swiper-button-prev {
   color: white;
