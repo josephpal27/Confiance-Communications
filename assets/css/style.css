@@ -22,8 +22,11 @@ body{
 
 /* Navbar Start */
 .navbar {
-    background: linear-gradient(to right, #59138d 10%, #220f3d 160%);
-    padding: 0.6rem 7%;
+    /* background: linear-gradient(to right, #59138d 10%, #220f3d 160%); */
+    background: transparent;
+    padding: 1rem 7%;
+    position: absolute;
+    width: 100%;
 }
 .navbar .navbar-brand img {
     width: 70px;
@@ -76,6 +79,7 @@ body{
 /* Banner Start */
 .home-banner img{
     width: 100%;
+    margin-top: -2rem;
 }
 /* Banner End */
 
