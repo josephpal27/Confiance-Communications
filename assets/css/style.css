@@ -489,11 +489,37 @@ body{
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-
+    .awards{
+        padding: 3rem 7% 2.5rem 7%;
+    }
+    .awards h6{
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .awards-tabbing-system{
+        margin-top: 3.7rem;
+    }
+    .awards-tabbing-system .tab-buttons button{
+        padding: 1.3rem 1.9rem;
+        font-size: calc(0.65rem + 0.5vw);
+        margin-bottom: 1.4rem;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-
+    .awards{
+        padding: 2.5rem 7% 2rem 7%;
+    }
+    .awards h6{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .awards-tabbing-system{
+        margin-top: 3.5rem;
+    }
+    .awards-tabbing-system .tab-buttons button{
+        padding: 1.15rem 1.5rem;
+        font-size: calc(0.57rem + 0.5vw);
+        margin-bottom: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -569,27 +595,96 @@ body{
 }
 .client-reviews-slider .swiper-button-next,
 .client-reviews-slider .swiper-button-prev {
-  color: white;
-  top: 36%;
-  transform: translateY(-50%);
-  scale: 0.7;
-  position: absolute;
-  z-index: 10;
+    color: white;
+    top: 36%;
+    transform: translateY(-50%);
+    scale: 0.7;
+    position: absolute;
+    z-index: 10;
 }
 .client-reviews-slider .swiper-button-prev {
-  left: -3.5rem;
+    left: -3.5rem;
 }
 .client-reviews-slider .swiper-button-next {
-  right: -3.2rem;
+    right: -3.2rem;
 }
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-
+    .client-reviews{
+        padding: 6rem 7% 3rem 7%;
+    }
+    .client-reviews h6{
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .client-reviews-slider{
+        margin-top: 3.3rem;
+    }
+    .client-reviews-slider .swiper-slide{
+        padding-bottom: 4rem;
+    }
+    .client-reviews-slider .review-content p{
+        font-size: calc(0.63rem + 0.5vw);
+        margin-bottom: 0.9rem;
+    }
+    .client-reviews-slider .review-content .ratings i{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .client-reviews-slider .review-content span{
+        font-size: calc(1.1rem + 0.5vw);
+        margin-top: 2rem;
+    }
+    .client-reviews-slider .review-content span:last-child{
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    .client-reviews-slider .swiper-pagination-bullet {
+        height: 3.8px;
+    }
+    .client-reviews-slider .swiper-button-next,
+    .client-reviews-slider .swiper-button-prev {
+        top: 37%;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-
+    .client-reviews{
+        padding: 5rem 7% 3rem 7%;
+    }
+    .client-reviews h6{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .client-reviews-slider{
+        margin-top: 3rem;
+    }
+    .client-reviews-slider .swiper-slide{
+        padding-bottom: 3rem;
+    }
+    .client-reviews-slider .review-content p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-bottom: 0.8rem;
+    }
+    .client-reviews-slider .review-content .ratings i{
+        font-size: calc(0.58rem + 0.5vw);
+    }
+    .client-reviews-slider .review-content span{
+        font-size: calc(1rem + 0.5vw);
+        margin-top: 1.9rem;
+    }
+    .client-reviews-slider .review-content span:last-child{
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    .client-reviews-slider .swiper-pagination-bullet {
+        height: 2.8px;
+        width: 10px;
+    }
+    .client-reviews-slider .swiper-pagination-bullet-active {
+        width: 25px;
+    }
+    .client-reviews-slider .swiper-button-next,
+    .client-reviews-slider .swiper-button-prev {
+        top: 37%;
+        scale: 0.6;
+    }
 }
 
 @media screen and (max-width: 768px) {
