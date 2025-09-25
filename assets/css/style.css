@@ -766,11 +766,61 @@ body{
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-
+    .get-in-touch{
+        padding: 3.5rem 7%;
+    }
+    .get-in-touch h6{
+        font-size: calc(2.3rem + 0.5vw);
+    }
+    .get-in-touch p{
+        font-size: calc(1.1rem + 0.5vw);
+        margin-top: 0.9rem;
+    }
+    .get-in-touch form{
+        margin-top: 2.5rem;
+    }
+    .get-in-touch input,
+    .get-in-touch textarea{
+        padding: 0.8rem 1.1rem;
+        font-size: calc(0.65rem + 0.5vw);
+        margin-bottom: 0.9rem;
+    }
+    .get-in-touch textarea{
+        height: 11rem;
+    }
+    .get-in-touch button{
+        padding: 0.8rem 1.2rem;
+        font-size: calc(0.65rem + 0.5vw);
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-
+    .get-in-touch{
+        padding: 2.5rem 7%;
+    }
+    .get-in-touch h6{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .get-in-touch p{
+        font-size: calc(1rem + 0.5vw);
+        margin-top: 0.7rem;
+    }
+    .get-in-touch form{
+        margin-top: 2.3rem;
+    }
+    .get-in-touch input,
+    .get-in-touch textarea{
+        padding: 0.7rem 1rem;
+        font-size: calc(0.58rem + 0.5vw);
+        margin-bottom: 0.8rem;
+    }
+    .get-in-touch textarea{
+        height: 9rem;
+    }
+    .get-in-touch button{
+        padding: 0.7rem 1.2rem;
+        font-size: calc(0.58rem + 0.5vw);
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -854,11 +904,72 @@ footer{
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-
+    footer{
+        padding: 5rem 7% 0 7%;
+    }
+    .footer-content .footer-desc img{
+        width: 75px;
+        margin-bottom: 2rem;
+    }
+    .footer-content .footer-desc p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .footer-content .footer-contact span{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    .footer-content .footer-contact a{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-bottom: 0.75rem;
+    }
+    .footer-copyright{
+        padding: 0.7rem 0;
+    }
+    .footer-copyright p{
+        font-size: calc(0.53rem + 0.5vw);
+    }
+    .footer-copyright .social-btns {
+        gap: 1.1rem;
+        padding: 0.27rem 1.3rem;
+    }
+    .footer-copyright .social-btns a{
+        font-size: calc(0.5rem + 0.5vw);
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-
+    footer{
+        padding: 5rem 7% 0 7%;
+    }
+    .footer-content{
+        border-bottom: 1.5px solid #fff;
+    }
+    .footer-content .footer-desc img{
+        width: 70px;
+        margin-bottom: 1.8rem;
+    }
+    .footer-content .footer-desc p{
+        font-size: calc(0.53rem + 0.5vw);
+    }
+    .footer-content .footer-contact span{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .footer-content .footer-contact a{
+        font-size: calc(0.53rem + 0.5vw);
+        margin-bottom: 0.7rem;
+    }
+    .footer-copyright{
+        padding: 0.65rem 0;
+    }
+    .footer-copyright p{
+        font-size: calc(0.46rem + 0.5vw);
+    }
+    .footer-copyright .social-btns {
+        gap: 1rem;
+        padding: 0.25rem 1.3rem;
+    }
+    .footer-copyright .social-btns a{
+        font-size: calc(0.5rem + 0.5vw);
+    }
 }
 
 @media screen and (max-width: 768px) {
