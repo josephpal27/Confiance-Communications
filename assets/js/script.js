@@ -6,6 +6,11 @@ var swiper = new Swiper(".ourClientsSlider", {
   loop: true,
   grabCursor: true,
   spaceBetween: 0,
+  speed: 600,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
 
   effect: "coverflow",
   coverflowEffect: {
