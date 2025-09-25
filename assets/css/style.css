@@ -153,6 +153,37 @@ body{
     font-weight: 500;
     margin-top: 2rem;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .about{
+        padding: 5rem 7% 4.5rem 7%;
+    }
+    .about .about-content h1{
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .about .about-content p{
+        font-size: calc(0.63rem + 0.5vw);
+        margin-top: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .about{
+        padding: 4.5rem 7% 3.5rem 7%;
+    }
+    .about .about-content h1{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .about .about-content p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
 /* About End */
 
 /* Impact Created Start */
@@ -188,6 +219,37 @@ body{
 }
 .impact .impact-image img{
     width: 100%;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .impact{
+        padding: 3.7rem 7% 3.5rem 7%;
+    }
+    .impact .impact-content h2{
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .impact .impact-content p{
+        font-size: calc(0.63rem + 0.5vw);
+        margin-top: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .impact{
+        padding: 3rem 7% 2.5rem 7%;
+    }
+    .impact .impact-content h2{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .impact .impact-content p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
 }
 /* Impact Created End */
 
@@ -234,6 +296,19 @@ body{
     width: 55%;
     height: auto;
     object-fit: contain;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
 }
 /* Certificates End */
 
@@ -292,6 +367,19 @@ body{
 .our-clients .swiper-button-next {
   right: 2rem;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
 /* Our Clients End */
 
 /* Awards Start */
@@ -337,6 +425,19 @@ body{
 .awards-tabbing-system .tab-buttons button.active{
     background: linear-gradient(180deg, #836c9ad3 0%, #3a1160 120%);
     backdrop-filter: blur(10px);
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
 }
 /* Awards End */
 
@@ -421,6 +522,19 @@ body{
 .client-reviews-slider .swiper-button-next {
   right: -3.2rem;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
 /* Client Reviews End */
 
 /* Get In Touch Start */
@@ -493,6 +607,19 @@ body{
 }
 .get-in-touch button:active{
     background: linear-gradient(to right, #7f501e 0%, #7f501e 0%);
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
 }
 /* Get In Touch End */
 
@@ -568,5 +695,18 @@ footer{
 }
 .footer-copyright .social-btns a:hover {
     transform: translateY(-3px);
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
 }
 /* Footer End */
