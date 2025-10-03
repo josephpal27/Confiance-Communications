@@ -321,7 +321,23 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    
+    .impact{
+        padding: 1.5rem 1rem;
+    }
+    .impact .impact-content{
+        width: 100%;
+    }
+    .impact .impact-content h2{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .impact .impact-content p{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 0.5rem;
+    }
+    .impact .impact-image{
+        width: 100%;
+        margin-top: 1rem;
+    }
 }
 /* Impact Created End */
 
@@ -407,7 +423,33 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    
+    .certificates{
+        padding: 1.5rem 1rem;
+    }
+    .certificates h3{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .certificates-container{
+        margin-top: 1.5rem;
+        flex-direction: column-reverse;
+    }
+    .certificates-container .certificate-desc{
+        width: 100%;
+    }
+    .certificates-container .certificate-desc h4{
+        font-size: calc(1.7rem + 0.5vw);
+        margin-top: 1.2rem;
+    }
+    .certificates-container .certificate-desc p{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 1.3rem;
+    }
+    .certificates-container .certificate-image{
+        width: 100%;
+    }
+    .certificates-container .certificate-image img{
+        width: 100%;
+    }
 }
 /* Certificates End */
 
