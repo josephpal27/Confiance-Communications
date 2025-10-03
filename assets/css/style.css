@@ -1026,7 +1026,35 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    
+    .get-in-touch{
+        padding: 1.5rem 1rem;
+    }
+    .get-in-touch h6{
+        font-size: calc(1.1rem + 0.5vw);
+        width: 90%;
+        padding-bottom: 0.5rem;
+    }
+    .get-in-touch p{
+        font-size: calc(0.85rem + 0.5vw);
+        margin-top: 0.2rem;
+    }
+    .get-in-touch form{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .get-in-touch input,
+    .get-in-touch textarea{
+        padding: 0.9rem 0.6rem;
+        font-size: calc(0.85rem + 0.5vw);
+        margin-bottom: 0.7rem;
+    }
+    .get-in-touch textarea{
+        height: 10rem;
+    }
+    .get-in-touch button{
+        padding: 0.8rem 1.2rem;
+        font-size: calc(0.87rem + 0.5vw);
+    }
 }
 /* Get In Touch End */
 
