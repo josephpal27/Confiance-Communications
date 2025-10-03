@@ -35,6 +35,16 @@ var swiper = new Swiper(".ourClientsSlider", {
     nextEl: ".our-clients-slider .swiper-button-next",
     prevEl: ".our-clients-slider .swiper-button-prev",
   },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 3, // mobile
+    },
+    768: {
+      slidesPerView: 4, // tablets & up
+    },
+  },
+
 });
 
 // ----------------------------------------------------------------------------------------------------------------

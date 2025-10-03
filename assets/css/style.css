@@ -552,7 +552,24 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    
+    .our-clients{
+        padding: 0.5rem 1rem 0 1rem;
+    }
+    .our-clients h5{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .our-clients .swiper{
+        width: 100%;
+        padding: 1.5rem 0 2rem 0;
+    }
+    .our-clients .swiper .swiper-slide{
+        width: 100px;
+        height: 110px;
+    }
+    .our-clients .swiper-button-next,
+    .our-clients .swiper-button-prev {
+        display: none;
+    }
 }
 /* Our Clients End */
 
