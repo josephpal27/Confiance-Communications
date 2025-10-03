@@ -654,7 +654,32 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    
+    .awards{
+        padding: 1rem 1rem 3rem 1rem;
+    }
+    .awards h6{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .awards-tabbing-system{
+        margin-top: 1.3rem;
+    }
+    .awards-tabbing-system .tab-content{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .awards-tabbing-system .tab-buttons{
+        width: 100%;
+    }
+    .awards-tabbing-system .tab-buttons button{
+        padding: 0.7rem 0.5rem;
+        font-size: calc(0.75rem + 0.5vw);
+        margin-bottom: 1rem;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+    .awards-tabbing-system .tab-buttons button b{
+        margin: 3px 0;
+    }
 }
 /* Awards End */
 
