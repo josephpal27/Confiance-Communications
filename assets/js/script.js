@@ -1,3 +1,9 @@
+// Refresh AOS on scroll
+window.onscroll = () => {
+    AOS.refresh();
+}
+
+// ----------------------------------------------------------------------------------------------------------------
 
 // Functionality For Our Clients Slider
 var swiper = new Swiper(".ourClientsSlider", {
