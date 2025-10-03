@@ -844,7 +844,53 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    
+    .client-reviews{
+        padding: 0 1rem 1rem 1rem;
+        overflow: hidden;
+    }
+    .client-reviews h6{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .client-reviews-slider{
+        margin-top: 2rem;
+        padding-bottom: 0;
+    }
+    .client-reviews-slider .swiper-slide{
+        flex-direction: column-reverse;
+        padding-bottom: 2rem;
+    }
+    .client-reviews-slider .review-content{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .client-reviews-slider .review-content p{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-bottom: 0.5rem;
+    }
+    .client-reviews-slider .review-content .ratings i{
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    .client-reviews-slider .review-content span{
+        font-size: calc(1rem + 0.5vw);
+        margin-top: 1rem;
+    }
+    .client-reviews-slider .review-content span:last-child{
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    .client-reviews-slider .review-image{
+        width: 40%;
+    }
+    .client-reviews-slider .swiper-pagination-bullet {
+        width: 13px;
+        height: 2px;
+    }
+    .client-reviews-slider .swiper-pagination-bullet-active {
+        width: 25px;
+    }
+    .client-reviews-slider .swiper-button-next,
+    .client-reviews-slider .swiper-button-prev {
+        display: none;
+    }
 }
 /* Client Reviews End */
 
